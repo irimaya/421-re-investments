@@ -1,56 +1,53 @@
 /* Utility Classes */
-.display-1 {
-	font-size: 4.5rem;
-}
-
-.display-2 {
-	font-size: 2rem;
-}
-
-.display-3 {
-	font-size: 1.2rem;
+.display-1 { font-size: 4rem; }
+.display-2 { font-size: 2rem; }
+.display-3 { 
+  font-size: 1.2rem; 
 }
 
 .p-1 {
-	padding: 50px 0;
+  padding: 50px 0;
 }
 
 .mt-1 {
-	margin-top: 30px;
+  margin-top: 30px;
+  
 }
 
 .w-50 {
-	width: 100%;
+  width: 100%;
 }
 
 .flex {
-	flex-direction: column;
+  flex-direction: column;
 }
+
 
 /* Navbar */
 #navbar {
-	height: 100%;
-	padding: 20px 0;
+  height: 100%;
+  padding: 20px 0;
 }
 
 #navbar .logo img {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #navbar .container {
-	flex-direction: column;
+  flex-direction: column;
 }
 
 #navbar ul li {
-	font-size: 15px;
+  margin: 8px;
+  font-size: 15px;
 }
 
 /* Header */
 .mainheader {
-	min-height: 100%;
-	padding: 50px 0;
+  min-height: 100%;
+  padding: 50px 0;
 }
 
-.mainheader img {
-	max-width: 180px;
+.mainheader img{
+  max-width: 180px;
 }
